@@ -1,4 +1,4 @@
 # Divulgação: Apresentação do Projeto
 
-Nesta pasta inclua arquivos de slides que foram produzidos para apresentações do projeto e de seus resultados.
+Nesta pasta está incluso o arquivo da apresentação utilizado na produção do vídeo de apresentação do projeto.
 
