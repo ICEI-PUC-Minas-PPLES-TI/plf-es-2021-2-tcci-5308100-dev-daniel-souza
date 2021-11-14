@@ -1,0 +1,22 @@
+## Daniel Lyncon Gonçalves de Souza
+
+Foi escolhido para este projeto de Trabalho de Conclusão de Curso I (TCC I) a opção de Desenvolvimento de _Software_ e o caso previsto na Resultação de TCC I que se enquadra é o de desenvolvimento para um cliente específico, externo à universidade. O cliente específico deste trabalho é a SYDLE, uma empresa que atua no ramo de transformação digital de outras empresas por meio de um produto de _software_. Esta realizou o contato com a universidade apresentando sua demanda de extensão do seu produto acrescentando um módulo de aplicação móvel.
+
+A SYDLE hoje possui como produto o SYDLE ONE, uma plataforma _Low Code_ que permite que seus clientes criem soluções para automatização do seu negócio utilizando de módulos prontos que tem a característica de serem altamente reutilizáveis enquanto permitem a customização dos recursos para atender à demandas específicas de cada cliente. Dentre os módulos que a empresa oferece hoje está o módulo de Recursos Humanos (RH) e dentre as funcionalidades deste módulo está o lançamento de horas de trabalho. Além de ser um produto comercializado pela empresa, esta também utiliza deste módulo para realizar a gestão das horas trabalhadas de seus funcionários. Importante destacar que hoje o SYDLE ONE não possui uma versão _mobile_ para nenhum de seus componentes.
+
+Dado esse contexto, o _software_ proposto será utilizado pela empresa em complemento ao módulo de RH, possibilitando que a gestão do lançamento de horas aconteça também por meio de um aplicativo _mobile_. O aplicativo utilizará de recursos nativos do sistema operacional do dispositivo para trazer para o usuário uma experiência simplificada de lançamento de horas. A princípio a aplicação será utilizada apenas pelos seus próprios funcionários, porém a empresa poderá utilizar do código base e evoluir o aplicativo para uma versão comercializável em conjunto com sua plataforma SYDLE ONE.
+
+As necessidades previstas para o aplicativo são:
+* Gerenciamento do lançamento de horas de um funcionário. Possiblitando inclusão, edição, atualização, atualização e exclusão de registros;
+* Visualização do histórico de marcações de ponto dos últimos 3 meses para todos os usuários;
+* Permitir aos usuário o envio dos registros de horas para aprovação do RH da empresa;
+* Enviar para os usuários notificações que incentivem o registro de horas por meio de recomendações de marcações;
+* Possibilitar a configuração de quais tipos de recomendações/notificações o usuário deseja receber;
+* O sistema deve possuir um perfil administrativo que pode gerenciar o acesso dos usuários comuns, associando o perfil de usuário do aplicativo com o usuário daquele funciońario no SYDLE ONE.
+
+A aplicação se enquandra nos problemas da Engenharia de _Software_ pois:
+* Trata da área de Engenharia de Requisitos de _Software_, uma vez que será necessário a realização de um levantamento de requisitos adequado que seja preparado a especificação de fato do _software_ que será produzido na segunda fase do projeto;
+* Trata da questão do _Design_ Centrado no Usuário no sentido de que o software é pensado juntamente com os stakeholders que são também usuários da aplicação. Além de que a introdução desta aplicação como opção para seus clientes seria uma iteração de aperfeiçoamento da experiência dos usuários com a plataforma, facilitando a interação dos usuários quanto ao registro de suas atividades com a possibilidade do registro com seu _smartphone_;
+* A aplicação contempla interface com outros sistemas no sentido de que haverá a funcionalidade de sincronização entre os dados da aplicação e a plataforma SYDLE ONE. A comunicação se dará por meio de requisições HTTP (_Hypertext Transfer Protocol_) para uma Inteface de Programação de Aplicação  (API, do inglês _Application Programming Interface_) que utiliza a arquitetura Transferência Representacional de Estado (REST, do inglês _Representational State Transfer_) disponibilizada pela empresa especificamente para realizar a comunicação do aplicativo;
+* Trata do problema de sincronização bidirecional de dados em sistemas distribuídos, sendo que modificações realizadas na aplicação _mobile_ deverão ser refletidas nos registros da plataforma SYDLE ONE e vice-versa de forma síncrona. Para isso está previsto o fornecimento de uma API Rest para que o próprio SYDLE realize requisições de atualização nos registros de horas e usuários.
+
