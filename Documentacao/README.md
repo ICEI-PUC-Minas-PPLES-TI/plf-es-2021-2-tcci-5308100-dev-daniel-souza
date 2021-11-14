@@ -1,3 +1,3 @@
 # Documentação do Projeto
 
-Inclua documentação do projeto, como relatórios da PROEX.
+Nesta pasta estão listadas as versões da documentação do projeto entregues durante o TCC I.
