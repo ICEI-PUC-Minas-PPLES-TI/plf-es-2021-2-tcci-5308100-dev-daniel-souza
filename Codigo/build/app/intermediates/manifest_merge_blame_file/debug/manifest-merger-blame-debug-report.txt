@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sglh"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16
+17    <application
+18        android:name="android.app.Application"
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+22        android:label="sglh" >
+23        <activity
+24            android:name="com.example.sglh.MainActivity"
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26            android:exported="true"
+27            android:hardwareAccelerated="true"
+28            android:launchMode="singleTop"
+29            android:theme="@style/LaunchTheme"
+30            android:windowSoftInputMode="adjustResize" >
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+39                android:name="io.flutter.embedding.android.NormalTheme"
+40                android:resource="@style/NormalTheme" />
+41
+42            <intent-filter>
+43                <action android:name="android.intent.action.MAIN" />
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+46            </intent-filter>
+47        </activity>
+48        <activity
+49            android:name="com.yalantis.ucrop.UCropActivity"
+50            android:screenOrientation="portrait"
+51            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+57            android:name="flutterEmbedding"
+58            android:value="2" />
+59
+60        <provider
+60-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+61            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+61-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+62            android:authorities="com.example.sglh.flutter.image_provider"
+62-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+63            android:exported="false"
+63-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+64            android:grantUriPermissions="true" >
+64-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+65            <meta-data
+65-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+67                android:resource="@xml/flutter_image_picker_file_paths" />
+67-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+68        </provider>
+69
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+71            android:name="androidx.window.extensions"
+71-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+73        <uses-library
+73-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+74            android:name="androidx.window.sidecar"
+74-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+75            android:required="false" />
+75-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+76    </application>
+77
+78</manifest>
