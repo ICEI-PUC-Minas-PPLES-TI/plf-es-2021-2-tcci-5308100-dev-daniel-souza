@@ -264,14 +264,7 @@ class LaborTimeRepository {
     // TODO special_hours
     // return parseTimePeriod;
 
-    print('parseTimePeriod before saving');
-    print(parseTimePeriod);
-    print(timePeriod);
-
     ParseResponse parseResponse = await parseTimePeriod.save();
-    print('parseTimePeriod');
-    print(parseTimePeriod);
-    print(parseResponse.result);
   }
 
   static Future<String?> deleteTimePeriod(TimePeriod timePeriod) async {
