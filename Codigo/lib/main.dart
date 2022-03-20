@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get_it/get_it.dart';
 import 'package:parse_server_sdk_flutter/parse_server_sdk.dart';
 import 'package:sglh/stores/auth_store.dart';
+import 'package:sglh/stores/month_labor_time_store.dart';
 import 'package:sglh/stores/page_store.dart';
 import 'package:sglh/views/auth/login_screen.dart';
-import 'package:sglh/views/base_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await doInitializations();
+  FlutterNativeSplash.remove();
+  runApp(const MyApp());
+}
+
+Future<void> doInitializations() async {
   await initializeParse();
   await setupLocators();
-  runApp(const MyApp());
 }
 
 Future<void> initializeParse() async {
@@ -31,8 +37,9 @@ Future<void> initializeParse() async {
 }
 
 Future<void> setupLocators() async {
-  GetIt.I.registerSingleton(PageStore());
   GetIt.I.registerSingleton(AuthStore());
+  GetIt.I.registerSingleton(PageStore());
+  GetIt.I.registerSingleton(MonthLaborTimeStore());
 }
 
 class MyApp extends StatelessWidget {
@@ -40,14 +47,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var routes = <String, WidgetBuilder>{
-      LoginScreen.routeName: (BuildContext context) => const LoginScreen(),
-    };
-
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'SGLH',
-      routes: routes,
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
@@ -60,12 +62,13 @@ class MyApp extends StatelessWidget {
         fontFamily: 'google_fonts/Inter-Regular.ttf',
         primarySwatch: Colors.grey,
         primaryColor: Colors.white60,
+        backgroundColor: Colors.green,
         textSelectionTheme: const TextSelectionThemeData(
           cursorColor: Colors.deepPurple,
           selectionHandleColor: Colors.blue,
         ),
       ),
-      home: const BaseScreen(),
+      home: const LoginScreen(),
     );
   }
 }

@@ -19,19 +19,38 @@ mixin _$AuthStore on _AuthStore, Store {
   final _$userAtom = Atom(name: '_AuthStore.user');
 
   @override
-  User? get user {
+  User get user {
     _$userAtom.reportRead();
     return super.user;
   }
 
   @override
-  set user(User? value) {
+  set user(User value) {
     _$userAtom.reportWrite(value, super.user, () {
       super.user = value;
     });
   }
 
+  final _$_getCurrentStoreAsyncAction =
+      AsyncAction('_AuthStore._getCurrentStore');
+
+  @override
+  Future<void> _getCurrentStore() {
+    return _$_getCurrentStoreAsyncAction.run(() => super._getCurrentStore());
+  }
+
   final _$_AuthStoreActionController = ActionController(name: '_AuthStore');
+
+  @override
+  void logout() {
+    final _$actionInfo =
+        _$_AuthStoreActionController.startAction(name: '_AuthStore.logout');
+    try {
+      return super.logout();
+    } finally {
+      _$_AuthStoreActionController.endAction(_$actionInfo);
+    }
+  }
 
   @override
   void setUser(User value) {

@@ -1,19 +1,20 @@
 import 'dart:io';
-import 'package:path/path.dart' as path;
+
 import 'package:parse_server_sdk_flutter/parse_server_sdk.dart';
+import 'package:path/path.dart' as path;
 import 'package:sglh/helpers/parse_errors.dart';
 import 'package:sglh/helpers/table_keys.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/models/auth/user_model.dart';
 import 'package:sglh/repositories/user_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserAdminRepository {
-  List<User> users = List.empty();
+  List<User> users = List.empty(growable: true);
 
   Future<List<User>> getAllUsers() async {
     final response = await getAllParseUsers();
     List<User> _users = response
-        .map<User>((e) => UserRepository().getUserFromResults(e))
+        .map<User>((e) => UserRepository.getUserFromResults(e))
         .toList();
 
     return _users;
@@ -56,7 +57,7 @@ class UserAdminRepository {
       print(apiResponse.error);
     }
     if (email != null && senha != null) {
-      UserRepository().loginWithEmail(email, senha);
+      UserRepository.loginWithEmail(email, senha);
     }
   }
 

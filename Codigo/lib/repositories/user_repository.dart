@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:parse_server_sdk_flutter/parse_server_sdk.dart';
 import 'package:sglh/helpers/parse_errors.dart';
 import 'package:sglh/helpers/table_keys.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/models/auth/user_model.dart';
 
 class UserRepository {
-  Future<User?> signUp(User user) async {
+  static Future<User?> signUp(User user) async {
     final ParseUser parseUser =
         ParseUser(user.email, user.password, user.email);
     parseUser.set<String>(keyUserName, user.name);
@@ -20,14 +20,29 @@ class UserRepository {
     }
   }
 
-  User getUserFromResults(ParseUser parseUser) {
+  static ParseUser toParse(User user) {
+    ParseUser parseUser = ParseUser(user.email, user.password, user.email);
+    parseUser.set<String?>(keyUserId, user.objectId);
+    parseUser.set<String?>(keyUserName, user.name);
+    parseUser.set<String?>(keyUserEmail, user.email);
+    parseUser.set<String?>(keyUserPost, user.post);
+    parseUser.set<String?>(keyUserType, user.type.toString());
+    parseUser.set<DateTime?>(keyUserCreatedAt, user.createdAt);
+    parseUser.set<DateTime?>(keyUserStartDate, user.startDate);
+    parseUser.set<bool>(keyUserIsActive, user.isActive);
+    parseUser.set<int>(keyUserScheduleHours, user.scheduleHours);
+
+    return parseUser;
+  }
+
+  static User getUserFromResults(ParseUser parseUser) {
     final Map<String, dynamic> userJson = json.decode(parseUser.toString());
     userJson.putIfAbsent('email', () => userJson['username']);
     User userFromJson = User.fromJson(userJson);
     return userFromJson;
   }
 
-  Future<User?> loginWithEmail(String email, String password) async {
+  static Future<User?> loginWithEmail(String email, String password) async {
     final ParseUser parseUser = ParseUser(email.trim(), password, null);
 
     final ParseResponse response = await parseUser.login();
@@ -39,7 +54,7 @@ class UserRepository {
     }
   }
 
-  Future<User?> currentUser() async {
+  static Future<User?> currentUser() async {
     ParseUser? currentUser = await ParseUser.currentUser() as ParseUser?;
     if (currentUser == null) {
       return null;

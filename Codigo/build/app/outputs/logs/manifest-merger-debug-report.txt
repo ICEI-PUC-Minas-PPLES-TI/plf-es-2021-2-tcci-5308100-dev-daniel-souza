@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:3:4-37:19
-MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
-MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:3:4-37:19
+MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.6.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:5-89
@@ -12,20 +12,21 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlync
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-MERGED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:2:1-11:12
@@ -54,41 +55,43 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydl
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:2:5-31
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:2:5-31
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -145,38 +148,38 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradl
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
 	android:exported
-		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
 	android:resource
-		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
 	android:name
-		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+		ADDED from [:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+ADDED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+		ADDED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

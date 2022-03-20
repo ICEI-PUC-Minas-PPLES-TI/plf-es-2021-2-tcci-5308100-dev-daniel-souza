@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/res/values-pt-rPT/values-pt-rPT.xml",

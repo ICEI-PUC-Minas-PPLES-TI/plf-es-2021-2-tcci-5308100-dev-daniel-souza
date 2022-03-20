@@ -12,19 +12,19 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
-15-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+15-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 16
 17    <application
 18        android:name="android.app.Application"
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.6.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
-21        android:icon="@mipmap/ic_launcher"
-22        android:label="sglh" >
+21        android:icon="@mipmap/launcher_icon"
+22        android:label="ClockIn" >
 23        <activity
 24            android:name="com.example.sglh.MainActivity"
 25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -63,21 +63,21 @@
 58            android:value="2" />
 59
 60        <provider
-60-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+60-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 61            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-61-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+61-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
 62            android:authorities="com.example.sglh.flutter.image_provider"
-62-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+62-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
 63            android:exported="false"
-63-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+63-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
 64            android:grantUriPermissions="true" >
-64-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+64-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
 65            <meta-data
-65-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+65-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
 66                android:name="android.support.FILE_PROVIDER_PATHS"
-66-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+66-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
 67                android:resource="@xml/flutter_image_picker_file_paths" />
-67-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+67-->[:image_picker] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
 68        </provider>
 69
 70        <uses-library

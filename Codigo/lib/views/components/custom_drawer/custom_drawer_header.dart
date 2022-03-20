@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:sglh/views/auth/login_screen.dart';
 import 'package:sglh/stores/auth_store.dart';
 import 'package:sglh/stores/page_store.dart';
+import 'package:sglh/views/auth/login_screen.dart';
 
 class CustomDrawerHeader extends StatelessWidget {
   CustomDrawerHeader({Key? key}) : super(key: key);
@@ -41,7 +41,7 @@ class CustomDrawerHeader extends StatelessWidget {
                 children: [
                   Text(
                     userManagerStore.isLoggedIn
-                        ? userManagerStore.user!.name
+                        ? userManagerStore.user.name
                         : 'Acesse sua conta agora!',
                     style: const TextStyle(
                       color: Colors.white,
@@ -51,7 +51,7 @@ class CustomDrawerHeader extends StatelessWidget {
                   ),
                   Text(
                     userManagerStore.isLoggedIn
-                        ? userManagerStore.user!.email
+                        ? userManagerStore.user.email
                         : 'Clique aqui',
                     style: const TextStyle(
                       color: Colors.white,

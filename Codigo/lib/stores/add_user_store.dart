@@ -1,7 +1,7 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:mobx/mobx.dart';
 import 'package:sglh/helpers/extensions.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/models/auth/user_model.dart';
 import 'package:sglh/repositories/user_admin_repository.dart';
 
 part 'add_user_store.g.dart';

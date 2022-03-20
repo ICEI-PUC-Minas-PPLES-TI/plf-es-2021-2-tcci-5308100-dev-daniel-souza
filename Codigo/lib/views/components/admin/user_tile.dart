@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/models/auth/user_model.dart';
 
 class UserTile extends StatelessWidget {
   const UserTile({Key? key, required this.user}) : super(key: key);

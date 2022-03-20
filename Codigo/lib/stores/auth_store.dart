@@ -1,5 +1,5 @@
 import 'package:mobx/mobx.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/models/auth/user_model.dart';
 import 'package:sglh/repositories/user_repository.dart';
 
 part 'auth_store.g.dart';
@@ -11,17 +11,27 @@ abstract class _AuthStore with Store {
     _getCurrentStore();
   }
 
+  static User anonUser = User(
+    name: 'Anonymous',
+    email: 'anonymous@email.com',
+    isActive: false,
+  );
+
   @observable
-  User? user;
+  User user = anonUser;
+
+  @action
+  void logout() => user = anonUser;
 
   @action
   void setUser(User value) => user = value;
 
   @computed
-  bool get isLoggedIn => user != null;
+  bool get isLoggedIn => user.objectId != null;
 
+  @action
   Future<void> _getCurrentStore() async {
-    final user = await UserRepository().currentUser();
+    final user = await UserRepository.currentUser();
     if (user != null) {
       setUser(user);
     }

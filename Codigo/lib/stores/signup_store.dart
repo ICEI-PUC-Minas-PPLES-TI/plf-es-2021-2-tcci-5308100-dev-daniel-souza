@@ -1,7 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:mobx/mobx.dart';
 import 'package:sglh/helpers/extensions.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/models/auth/user_model.dart';
 import 'package:sglh/repositories/user_repository.dart';
 import 'package:sglh/stores/auth_store.dart';
 
@@ -164,7 +164,7 @@ abstract class _SignupStore with Store {
     );
 
     try {
-      final resultUser = await UserRepository().signUp(userToCreate);
+      final resultUser = await UserRepository.signUp(userToCreate);
       if (resultUser != null) {
         GetIt.I.get<AuthStore>().setUser(resultUser);
         user = resultUser;

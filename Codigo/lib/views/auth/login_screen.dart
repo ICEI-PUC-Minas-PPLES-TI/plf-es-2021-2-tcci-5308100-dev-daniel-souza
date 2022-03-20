@@ -5,6 +5,7 @@ import 'package:mobx/mobx.dart';
 import 'package:sglh/stores/auth_store.dart';
 import 'package:sglh/stores/login_store.dart';
 import 'package:sglh/views/auth/sign_up_page.dart';
+import 'package:sglh/views/base_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final AuthStore userManagerStore = GetIt.I<AuthStore>();
+  final AuthStore authStore = GetIt.I<AuthStore>();
   final LoginStore loginStore = LoginStore();
 
   final List<ReactionDisposer> _disposers = [];
@@ -50,8 +51,12 @@ class _LoginScreenState extends State<LoginScreen> {
     );
     _disposers.add(
       reaction(
-        (_) => userManagerStore.isLoggedIn,
-        (_) => Navigator.of(context).pop(userManagerStore.isLoggedIn),
+        (_) => authStore.isLoggedIn,
+        (_) => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => const BaseScreen(),
+          ),
+        ),
       ),
     );
   }
@@ -70,10 +75,30 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  const Icon(
-                    Icons.access_time_sharp,
-                    color: Colors.grey,
-                    size: 160,
+                  Container(
+                    height: 250,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.only(
+                        bottomLeft: Radius.circular(50),
+                        topRight: Radius.circular(50),
+                      ),
+                      color: Color(0xffF5591F),
+                      gradient: LinearGradient(
+                        colors: [Colors.white, Colors.white],
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                      ),
+                    ),
+                    child: Center(
+                      child: Image.asset(
+                        "assets/logo.png",
+                        // height: 150,
+                        // width: 90,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
                   ),
                   Observer(builder: (_) {
                     return TextField(

@@ -2,18 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
 import 'package:mobx/mobx.dart';
-import 'package:sglh/models/user_model.dart';
+import 'package:sglh/helpers/extensions.dart';
+import 'package:sglh/models/auth/user_model.dart';
 import 'package:sglh/stores/auth_store.dart';
+import 'package:sglh/stores/month_labor_time_store.dart';
 import 'package:sglh/stores/page_store.dart';
-import 'package:sglh/views/admin_home_page.dart';
+import 'package:sglh/views/admin/admin_home_page.dart';
 import 'package:sglh/views/auth/login_screen.dart';
-import 'package:sglh/views/home_screen.dart';
+import 'package:sglh/views/home/home_screen.dart';
 
 import 'components/custom_drawer/custom_drawer.dart';
+import 'hours_management/history_page.dart';
+import 'hours_management/work_hours_page.dart';
 
 class BaseScreen extends StatefulWidget {
   const BaseScreen({Key? key}) : super(key: key);
-
   static const String routeName = '/';
 
   @override
@@ -24,9 +27,11 @@ class _BaseScreenState extends State<BaseScreen> {
   final PageController pageController = PageController();
   final PageStore pageStore = GetIt.I<PageStore>();
   final AuthStore userManagerStore = GetIt.I<AuthStore>();
+  final MonthLaborTimeStore laborTimeStore = GetIt.I<MonthLaborTimeStore>();
 
   @override
   void initState() {
+    laborTimeStore.fetchData();
     super.initState();
     reaction(
         (_) => pageStore.page, (int page) => pageController.jumpToPage(page));
@@ -38,7 +43,7 @@ class _BaseScreenState extends State<BaseScreen> {
       appBar: AppBar(
         iconTheme: const IconThemeData(color: Colors.black),
         title: Text(
-          'SGLH',
+          'ClockIn',
           style: Theme.of(context).textTheme.titleLarge,
         ),
         centerTitle: false,
@@ -53,20 +58,16 @@ class _BaseScreenState extends State<BaseScreen> {
           ),
         ),
         actions: [
-          Observer(builder: (context) {
-            return IconButton(
-              icon: Icon(
-                userManagerStore.isLoggedIn ? Icons.logout : Icons.login,
-                color: Colors.black,
-              ),
-              tooltip: 'Sair',
-              onPressed: () {
-                userManagerStore.isLoggedIn
-                    ? _logout(context)
-                    : _login(context);
-              },
-            );
-          }),
+          IconButton(
+            icon: const Icon(
+              Icons.logout,
+              color: Colors.black,
+            ),
+            tooltip: 'Sair',
+            onPressed: () {
+              _logout(context);
+            },
+          ),
         ],
       ),
       drawer: const CustomDrawer(),
@@ -76,8 +77,13 @@ class _BaseScreenState extends State<BaseScreen> {
           physics: const NeverScrollableScrollPhysics(),
           children: [
             const Home(),
-            Container(color: Colors.blueAccent),
-            Container(color: Colors.cyan),
+            WorkHoursPage(
+              monthLaborTimeStore: laborTimeStore,
+              monthReference: DateTime.now().getMonthReference(),
+            ),
+            HistoryPage(
+              pageController: pageController,
+            ),
             Container(color: Colors.lime),
             AdminHome()
           ],
@@ -102,30 +108,19 @@ class _BaseScreenState extends State<BaseScreen> {
       content: const Text('Realizar log out?'),
       action: SnackBarAction(
         onPressed: () {
-          userManagerStore.user = null;
-          pageStore.setPage(0);
+          userManagerStore.logout();
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (BuildContext context) {
+                return const LoginScreen();
+              },
+            ),
+          );
         },
         label: 'Confirmar',
       ),
     );
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
-  }
-
-  _login(BuildContext context) {
-    Navigator.of(context)
-        .push(MaterialPageRoute(builder: (_) => const LoginScreen()))
-        .then((_) {
-      if (GetIt.I<AuthStore>().user != null) {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content: Text(
-            "Login realizado com sucesso!",
-            style: TextStyle(fontSize: 18, color: Colors.black),
-          ),
-          backgroundColor: Color.fromARGB(255, 75, 168, 164),
-          duration: Duration(seconds: 2),
-        ));
-      }
-    });
   }
 
   List<BottomNavigationBarItem> _getBottomNavigationItems() {
@@ -159,7 +154,7 @@ class _BaseScreenState extends State<BaseScreen> {
         ),
       ),
     ];
-    if (userManagerStore.user?.type == UserType.admin) {
+    if (userManagerStore.user.type == UserType.admin) {
       bottomNavigationBarItemsList.add(
         const BottomNavigationBarItem(
           label: 'Admin',

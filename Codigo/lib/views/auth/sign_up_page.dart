@@ -69,10 +69,27 @@ class _SignUpPageState extends State<SignUpPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  const Icon(
-                    Icons.access_time_sharp,
-                    color: Colors.grey,
-                    size: 160,
+                  Container(
+                    height: 250,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.only(
+                        bottomLeft: Radius.circular(50),
+                        topRight: Radius.circular(50),
+                      ),
+                      color: Color(0xffF5591F),
+                      gradient: LinearGradient(
+                        colors: [Colors.white, Colors.white],
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                      ),
+                    ),
+                    child: Center(
+                      child: Image.asset(
+                        "assets/logo.png",
+                        // height: 150,
+                        // width: 90,
+                      ),
+                    ),
                   ),
                   Observer(builder: (_) {
                     return TextField(

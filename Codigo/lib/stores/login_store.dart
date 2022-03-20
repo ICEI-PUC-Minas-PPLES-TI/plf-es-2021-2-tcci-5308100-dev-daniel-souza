@@ -58,7 +58,7 @@ abstract class _LoginStore with Store {
     _makeErrorsVisible();
     loading = true;
     try {
-      final user = await UserRepository().loginWithEmail(email, password);
+      final user = await UserRepository.loginWithEmail(email, password);
       if (user != null) {
         GetIt.I<AuthStore>().setUser(user);
       }

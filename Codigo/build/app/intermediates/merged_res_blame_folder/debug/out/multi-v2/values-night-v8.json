@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/dlynconsydle/SoftwareEngineer/TCC_I/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
