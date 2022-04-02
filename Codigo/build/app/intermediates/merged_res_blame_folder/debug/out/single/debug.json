@@ -72,12 +72,12 @@
         "source": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/res/merged/debug/drawable-mdpi_splash.png.flat",
-        "source": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/res/drawable-mdpi/splash.png"
-    },
-    {
         "merged": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/res/merged/debug/drawable-mdpi_splash.png.flat",
+        "source": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/res/drawable-mdpi/splash.png"
     },
     {
         "merged": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",

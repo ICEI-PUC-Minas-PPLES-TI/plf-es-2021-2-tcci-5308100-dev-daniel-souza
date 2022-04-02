@@ -24,7 +24,9 @@ abstract class _AuthStore with Store {
   void logout() => user = anonUser;
 
   @action
-  void setUser(User value) => user = value;
+  void setUser(User value) {
+    user = value;
+  }
 
   @computed
   bool get isLoggedIn => user.objectId != null;

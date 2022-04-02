@@ -10,6 +10,7 @@ import 'package:sglh/stores/page_store.dart';
 import 'package:sglh/views/admin/admin_home_page.dart';
 import 'package:sglh/views/auth/login_screen.dart';
 import 'package:sglh/views/home/home_screen.dart';
+import 'package:sglh/views/settings/app_settings.dart';
 
 import 'components/custom_drawer/custom_drawer.dart';
 import 'hours_management/history_page.dart';
@@ -84,7 +85,7 @@ class _BaseScreenState extends State<BaseScreen> {
             HistoryPage(
               pageController: pageController,
             ),
-            Container(color: Colors.lime),
+            const AppSettings(),
             AdminHome()
           ],
         ),

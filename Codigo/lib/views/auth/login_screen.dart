@@ -50,13 +50,16 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
     _disposers.add(
-      reaction(
-        (_) => authStore.isLoggedIn,
-        (_) => Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (_) => const BaseScreen(),
-          ),
-        ),
+      autorun(
+        (_) {
+          if (authStore.isLoggedIn) {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (_) => const BaseScreen(),
+              ),
+            );
+          }
+        },
       ),
     );
   }

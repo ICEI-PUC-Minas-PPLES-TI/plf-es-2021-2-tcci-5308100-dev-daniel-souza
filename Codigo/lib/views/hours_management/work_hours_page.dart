@@ -25,14 +25,6 @@ class _WorkHoursPageState extends State<WorkHoursPage> {
   final List<ReactionDisposer> _disposers = [];
 
   @override
-  void initState() {
-    // if (widget.monthReference != null) {
-    //   widget.monthReference = DateTime.now().getMonthReference();
-    // }
-    super.initState();
-  }
-
-  @override
   void dispose() {
     for (var disposer in _disposers) {
       disposer();
@@ -400,6 +392,13 @@ class _WorkHoursPageState extends State<WorkHoursPage> {
                       widget.monthLaborTimeStore.fetchReposFuture.value);
                   return Column(
                     children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Text(
+                          widget.monthReference,
+                          style: Theme.of(context).textTheme.titleLarge,
+                        ),
+                      ),
                       Expanded(
                         child: GridView(
                           padding: const EdgeInsets.all(5),
@@ -453,24 +452,22 @@ class _WorkHoursPageState extends State<WorkHoursPage> {
                           ),
                         ),
                       ),
-                      Expanded(
-                        child: Observer(
-                          builder: (BuildContext context) {
-                            if (widget.monthLaborTimeStore.currentLaborTime ==
-                                null) {
-                              return const Center(
-                                child: CircularProgressIndicator(),
-                              );
-                            } else {
-                              return DataTable(
-                                rows: getRows(widget
-                                    .monthLaborTimeStore.currentLaborTime!),
-                                columns:
-                                    getColumns(['Entrada', 'Saída', 'Total']),
-                              );
-                            }
-                          },
-                        ),
+                      Observer(
+                        builder: (BuildContext context) {
+                          if (widget.monthLaborTimeStore.currentLaborTime ==
+                              null) {
+                            return const Center(
+                              child: CircularProgressIndicator(),
+                            );
+                          } else {
+                            return DataTable(
+                              rows: getRows(
+                                  widget.monthLaborTimeStore.currentLaborTime!),
+                              columns:
+                                  getColumns(['Entrada', 'Saída', 'Total']),
+                            );
+                          }
+                        },
                       ),
                     ],
                   );

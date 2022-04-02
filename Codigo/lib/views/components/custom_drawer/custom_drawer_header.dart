@@ -21,7 +21,7 @@ class CustomDrawerHeader extends StatelessWidget {
         }
       },
       child: Container(
-        color: Colors.black,
+        color: Colors.blueGrey[400],
         height: 95,
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Row(

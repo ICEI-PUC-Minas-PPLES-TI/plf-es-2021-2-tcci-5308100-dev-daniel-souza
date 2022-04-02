@@ -22,22 +22,13 @@ class PageSection extends StatelessWidget {
           highlighted: pageStore.page == 0,
         ),
         PageTile(
-          label: 'Minha Conta',
-          iconData: Icons.person_outline_outlined,
-          onTap: () {
-            pageStore.setPage(4);
-            Navigator.of(context).pop();
-          },
-          highlighted: pageStore.page == 1,
-        ),
-        PageTile(
           label: 'Lançamento de horas',
           iconData: Icons.watch_later_outlined,
           onTap: () {
             pageStore.setPage(1);
             Navigator.of(context).pop();
           },
-          highlighted: pageStore.page == 2,
+          highlighted: pageStore.page == 1,
         ),
         PageTile(
           label: 'Histórico',
@@ -46,13 +37,22 @@ class PageSection extends StatelessWidget {
             pageStore.setPage(2);
             Navigator.of(context).pop();
           },
-          highlighted: pageStore.page == 3,
+          highlighted: pageStore.page == 2,
         ),
         PageTile(
           label: 'Configurações',
           iconData: Icons.settings_outlined,
           onTap: () {
             pageStore.setPage(3);
+            Navigator.of(context).pop();
+          },
+          highlighted: pageStore.page == 3,
+        ),
+        PageTile(
+          label: 'Minha Conta',
+          iconData: Icons.person_outline_outlined,
+          onTap: () {
+            pageStore.setPage(4);
             Navigator.of(context).pop();
           },
           highlighted: pageStore.page == 4,
