@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/material.dart';
 import 'package:parse_server_sdk_flutter/parse_server_sdk.dart';
 import 'package:sglh/helpers/mock/month_labor_time_mock.dart';
 import 'package:sglh/helpers/parse_errors.dart';
@@ -27,26 +28,32 @@ class LaborTimeRepository {
 
     final ParseResponse apiResponse = await mltQueryBuilder.query();
     List<MonthLaborTime> monthLaborTimes = [];
-    if (apiResponse.success && apiResponse.results != null) {
+    if (apiResponse.success) {
       if (apiResponse.results!.isEmpty) {
+        print("createInitialMonthLaborTime");
         return createInitialMonthLaborTime(user);
       }
-      monthLaborTimes = apiResponse.results!
-          .map((element) =>
-              getMonthLaborTimeFromResults(element as ParseObject, user))
-          .toList();
+      if (apiResponse.results != null) {
+        monthLaborTimes = apiResponse.results!
+            .map((element) =>
+                getMonthLaborTimeFromResults(element as ParseObject, user))
+            .toList();
+      }
     } else {
       return Future.error(ParseErrors.getDescription(apiResponse.error!.code));
     }
 
     final QueryBuilder laborTimeQueryBuilder =
         QueryBuilder<ParseObject>(ParseObject('LaborTime'));
-    for (var element in monthLaborTimes) {
-      ParseObject p = ParseObject('MonthLaborTime')
-        ..set<String>('objectId', element.objectId!);
 
-      laborTimeQueryBuilder.whereEqualTo("month_labor_time_id", p);
-    }
+    List<Map<String, dynamic>> parseMonthLaborTimes = monthLaborTimes.map((e) {
+      ParseObject parseObject = ParseObject('MonthLaborTime');
+      parseObject.objectId = e.objectId!;
+      return parseObject.toPointer();
+    }).toList();
+
+    laborTimeQueryBuilder.whereContainedIn(
+        'month_labor_time_id', parseMonthLaborTimes);
 
     final ParseResponse laborTimeResponse = await laborTimeQueryBuilder.query();
 
@@ -56,6 +63,12 @@ class LaborTimeRepository {
           .map((element) => getLaborTimeFromResults(element as ParseObject))
           .toList();
     } else {
+      debugPrint("Erro ao buscar LaborTimes");
+      print(ParseErrors.getDescription(laborTimeResponse.error!.code));
+      print(laborTimeResponse.error);
+      print(laborTimeResponse.success);
+      print(laborTimeResponse.error!.message ==
+          "Successful request, but no results found");
       return Future.error(
           ParseErrors.getDescription(laborTimeResponse.error!.code));
     }
@@ -63,21 +76,22 @@ class LaborTimeRepository {
     final QueryBuilder timePeriodQueryBuilder =
         QueryBuilder<ParseObject>(ParseObject('TimePeriod'));
 
-    // for (var element in laborTimes) {
-    //   ParseObject p = ParseObject('LaborTime')
-    //     ..set<String>('objectId', element.objectId!);
-    //   timePeriodQueryBuilder.whereEqualTo("labor_time_id", p);
-    // }
+    print("laborTimes.length");
+    print(laborTimes.length);
     List<Map<String, dynamic>> parseLaborTimes = laborTimes.map((e) {
       ParseObject parseObject = ParseObject('LaborTime');
       parseObject.objectId = e.objectId!;
       return parseObject.toPointer();
     }).toList();
+    print("parseLaborTimes");
+    print(parseLaborTimes);
     timePeriodQueryBuilder.whereContainedIn('labor_time_id', parseLaborTimes);
 
+    print('before timePeriodsResponse query');
     final ParseResponse timePeriodsResponse =
         await timePeriodQueryBuilder.query();
 
+    print('timePeriodsResponse.results');
     print(timePeriodsResponse.results);
     List<TimePeriod> timePeriods = List<TimePeriod>.empty(growable: true);
     if (timePeriodsResponse.success) {
@@ -88,6 +102,7 @@ class LaborTimeRepository {
       }
     } else {
       print(ParseErrors.getDescription(timePeriodsResponse.error!.code));
+      print(timePeriodsResponse.error!);
       return Future.error(
           ParseErrors.getDescription(timePeriodsResponse.error!.code));
     }
@@ -131,8 +146,6 @@ class LaborTimeRepository {
   }
 
   static TimePeriod getTimePeriodFromResults(ParseObject parseObject) {
-    print("parseObject.get<DateTime>(keyTMStartTime)");
-    print(parseObject.get<DateTime>(keyTMStartTime));
     final Map<String, dynamic> object = json.decode(parseObject.toString());
     TimePeriod timePeriod = TimePeriod.fromJson(object);
     return timePeriod;
@@ -160,7 +173,7 @@ class LaborTimeRepository {
       user: user,
       year: now.year,
       month: now.month,
-      status: "Em Lançamento",
+      status: "Em lançamento",
     );
     monthLaborTimeList.add(
       initialMonthLaborTime.copyWith(
@@ -229,15 +242,16 @@ class LaborTimeRepository {
     parseLaborTime.set<double>(
         keyLTTotalHours, laborTime.calculateTotalHours());
     parseLaborTime.set<String>(keyLTTypeOfDay, laborTime.dayOfWeekType.name);
-    // ParseResponse parseResponse = await parseLaborTime.save();
-    // print('parseResponse');
-    // print(parseResponse.success);
+    ParseResponse parseResponse = await parseLaborTime.save();
+    print('parseLaborTime response');
+    print(parseResponse.success);
     for (var element in laborTime.clockInList) {
-      timePeriodToParse(element);
+      timePeriodToParse(element, laborTime.objectId!);
     }
   }
 
-  static Future<void> timePeriodToParse(TimePeriod timePeriod) async {
+  static Future<void> timePeriodToParse(
+      TimePeriod timePeriod, String laborTimeId) async {
     ParseObject parseTimePeriod = ParseObject(
       keyTMTable,
       autoSendSessionId: true,
@@ -245,16 +259,12 @@ class LaborTimeRepository {
     if (timePeriod.objectId != null) {
       parseTimePeriod.set<String>(keyTMId, timePeriod.objectId!);
     }
-    if (timePeriod.laborTimeId != null) {
-      ParseObject parseLaborTime = ParseObject(keyLTTable)
-        ..set<String>(keyLTId, timePeriod.laborTimeId!);
-      parseTimePeriod.set<ParseObject>(keyTMLTId, parseLaborTime);
-    }
+
+    ParseObject parseLaborTime = ParseObject(keyLTTable)
+      ..set<String>(keyLTId, timePeriod.laborTimeId ?? laborTimeId);
+    parseTimePeriod.set<ParseObject>(keyTMLTId, parseLaborTime);
+
     if (timePeriod.startingTime != null) {
-      print('timePeriod.startingTime');
-      print(timePeriod.startingTime);
-      print(timePeriod.startingTime?.toIso8601String());
-      print(timePeriod.startingTime?.isUtc);
       parseTimePeriod.set<DateTime>(keyTMStartTime, timePeriod.startingTime!);
     }
     if (timePeriod.endingTime != null) {

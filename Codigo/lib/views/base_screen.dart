@@ -1,4 +1,9 @@
+import 'dart:io';
+
+import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
+// import 'package:flutter_background_geolocation/flutter_background_geolocation.dart'
+//     as bg;
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
 import 'package:mobx/mobx.dart';
@@ -31,7 +36,110 @@ class _BaseScreenState extends State<BaseScreen> {
   final MonthLaborTimeStore laborTimeStore = GetIt.I<MonthLaborTimeStore>();
 
   @override
+  void dispose() {
+    AwesomeNotifications().actionSink.close();
+    AwesomeNotifications().createdSink.close();
+    super.dispose();
+  }
+
+  @override
   void initState() {
+    AwesomeNotifications().isNotificationAllowed().then(
+      (isAllowed) {
+        if (!isAllowed) {
+          showDialog(
+            context: context,
+            builder: (context) => AlertDialog(
+              title: const Text('Permitir Notificações'),
+              content:
+                  const Text('Nosso app gostaria de te enviar notificações!'),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  child: const Text(
+                    'Não permitir',
+                    style: TextStyle(color: Colors.grey, fontSize: 18),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () => AwesomeNotifications()
+                      .requestPermissionToSendNotifications()
+                      .then((_) => Navigator.pop(context)),
+                  child: const Text(
+                    'Permitir',
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          );
+        }
+      },
+    );
+    AwesomeNotifications().createdStream.listen((notification) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'Marcação de ponto agendada!',
+          ),
+        ),
+      );
+    });
+    AwesomeNotifications().actionStream.listen((notification) {
+      if (notification.channelKey == 'basic_channel' && Platform.isIOS) {
+        AwesomeNotifications().getGlobalBadgeCounter().then(
+            (value) => AwesomeNotifications().setGlobalBadgeCounter(value - 1));
+      }
+
+      print("Action Stream!");
+      // print(notification.toString());
+      if (notification.payload != null) {
+        print('Payload not null');
+        print(notification.payload!['timeToClockIn']);
+        laborTimeStore.punchClock(DateTime.now());
+      }
+    }, onDone: () {
+      print('done');
+    }, onError: (obj) {
+      print('error on notification');
+      print(obj.toString());
+    });
+    // // Fired whenever a location is recorded
+    // bg.BackgroundGeolocation.onLocation((bg.Location location) {
+    //   print('[location] - $location');
+    // });
+    // // Fired whenever the plugin changes motion-state (stationary->moving and vice-versa)
+    // bg.BackgroundGeolocation.onMotionChange((bg.Location location) {
+    //   print('[motionchange] - $location');
+    // });
+    // // Fired whenever the state of location-services changes.  Always fired at boot
+    // bg.BackgroundGeolocation.onProviderChange((bg.ProviderChangeEvent event) {
+    //   print('[providerchange] - $event');
+    // });
+    // ////
+    // // 2.  Configure the plugin
+    // //
+    // bg.BackgroundGeolocation.ready(bg.Config(
+    //         desiredAccuracy: bg.Config.DESIRED_ACCURACY_HIGH,
+    //         distanceFilter: 10.0,
+    //         stopOnTerminate: false,
+    //         startOnBoot: true,
+    //         debug: true,
+    //         logLevel: bg.Config.LOG_LEVEL_VERBOSE))
+    //     .then((bg.State state) {
+    //   if (!state.enabled) {
+    //     ////
+    //     // 3.  Start the plugin.
+    //     //
+    //     bg.BackgroundGeolocation.start();
+    //   }
+    // });
     laborTimeStore.fetchData();
     super.initState();
     reaction(

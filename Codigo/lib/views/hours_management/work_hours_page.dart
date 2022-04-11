@@ -244,9 +244,12 @@ class _WorkHoursPageState extends State<WorkHoursPage> {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text(
-              'O tempo de saída não deve ser inferir a um tempo de entrada! Operação não realizada.',
+              'O tempo de saída não deve ser inferior a um tempo de entrada! Operação não realizada.',
               style: TextStyle(
-                  color: Colors.red, fontSize: 15, fontWeight: FontWeight.bold),
+                color: Colors.red,
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         );
@@ -452,22 +455,24 @@ class _WorkHoursPageState extends State<WorkHoursPage> {
                           ),
                         ),
                       ),
-                      Observer(
-                        builder: (BuildContext context) {
-                          if (widget.monthLaborTimeStore.currentLaborTime ==
-                              null) {
-                            return const Center(
-                              child: CircularProgressIndicator(),
-                            );
-                          } else {
-                            return DataTable(
-                              rows: getRows(
-                                  widget.monthLaborTimeStore.currentLaborTime!),
-                              columns:
-                                  getColumns(['Entrada', 'Saída', 'Total']),
-                            );
-                          }
-                        },
+                      Expanded(
+                        child: Observer(
+                          builder: (BuildContext context) {
+                            if (widget.monthLaborTimeStore.currentLaborTime ==
+                                null) {
+                              return const Center(
+                                child: CircularProgressIndicator(),
+                              );
+                            } else {
+                              return DataTable(
+                                rows: getRows(widget
+                                    .monthLaborTimeStore.currentLaborTime!),
+                                columns:
+                                    getColumns(['Entrada', 'Saída', 'Total']),
+                              );
+                            }
+                          },
+                        ),
                       ),
                     ],
                   );

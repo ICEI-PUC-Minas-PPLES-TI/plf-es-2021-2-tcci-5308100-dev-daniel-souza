@@ -55,7 +55,8 @@ dependencies:
   flutter_launcher_icons: ^0.9.2
   syncfusion_flutter_datagrid: ^19.4.55
   super_tooltip: ^1.0.1
-#  flutter_settings_screens: ^0.3.2-null-safety
+  awesome_notifications: ^0.6.21
+  flutter_datetime_picker: ^1.5.1
 
 dev_dependencies:
   flutter_test:

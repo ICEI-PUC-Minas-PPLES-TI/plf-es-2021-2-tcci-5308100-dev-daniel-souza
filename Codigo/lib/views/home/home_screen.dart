@@ -130,60 +130,62 @@ class _HomeState extends State<Home> {
               elevation: 8,
               margin: const EdgeInsets.all(16),
               child: Observer(
-                builder: (context) => userManagerStore.isLoggedIn
-                    ? GridView(
-                        clipBehavior: Clip.none,
-                        // padding: const EdgeInsets.all(1),
-                        gridDelegate:
-                            const SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 3,
-                        ),
-                        shrinkWrap: true,
-                        children: [
-                          HoursReportInformation(
-                            value: monthLaborTimeStore.totalHoursClocked
-                                .toStringAsPrecision(2),
-                            label: 'HL',
+                builder: (context) =>
+                    userManagerStore.isLoggedIn && monthLaborTimeStore != null
+                        ? GridView(
+                            clipBehavior: Clip.none,
+                            // padding: const EdgeInsets.all(1),
+                            gridDelegate:
+                                const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 3,
+                            ),
+                            shrinkWrap: true,
+                            children: [
+                              HoursReportInformation(
+                                value: monthLaborTimeStore.totalHoursClocked
+                                    .toStringAsPrecision(2),
+                                label: 'HL',
+                              ),
+                              HoursReportInformation(
+                                value: monthLaborTimeStore.getHoursToWork
+                                    .toStringAsPrecision(2),
+                                label: 'TH',
+                              ),
+                              HoursReportInformation(
+                                  value:
+                                      '${monthLaborTimeStore.currentBalance.round()}',
+                                  label: 'SA'),
+                              HoursReportInformation(
+                                  value:
+                                      '${monthLaborTimeStore.hoursToWorkThisMonth.round()}',
+                                  label: 'TM'),
+                              HoursReportInformation(
+                                  value: '${monthLaborTimeStore.monthBalance}',
+                                  label: 'SM'),
+                              const HoursReportInformation(
+                                value: '0',
+                                label: 'BH',
+                              ),
+                            ],
+                          )
+                        : SizedBox(
+                            width: 300,
+                            height: 150,
+                            child: Center(
+                              child: Text(
+                                "Realize login \npara visualizar\nseu relatório",
+                                style: Theme.of(context).textTheme.titleLarge,
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
                           ),
-                          HoursReportInformation(
-                            value:
-                                '${monthLaborTimeStore.getHoursToWork.round()}',
-                            label: 'TH',
-                          ),
-                          HoursReportInformation(
-                              value: '${monthLaborTimeStore.currentBalance}',
-                              label: 'SA'),
-                          HoursReportInformation(
-                              value:
-                                  '${monthLaborTimeStore.hoursToWorkThisMonth.round()}',
-                              label: 'TM'),
-                          HoursReportInformation(
-                              value: '${monthLaborTimeStore.monthBalance}',
-                              label: 'SM'),
-                          const HoursReportInformation(
-                            value: '0',
-                            label: 'BH',
-                          ),
-                        ],
-                      )
-                    : SizedBox(
-                        width: 300,
-                        height: 150,
-                        child: Center(
-                          child: Text(
-                            "Realize login \npara visualizar\nseu relatório",
-                            style: Theme.of(context).textTheme.titleLarge,
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                      ),
               ),
             ),
           ),
           WillPopScope(
             child: GestureDetector(
               onTap: onTap,
-              child: Icon(Icons.help),
+              child: const Icon(Icons.help),
             ),
             onWillPop: _willPopCallback,
           )

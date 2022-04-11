@@ -4,6 +4,23 @@
             "outputFile": "/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
+                    "source": "/home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2881",
+                        "endColumns": "100",
+                        "endOffsets": "2977"
+                    }
+                },
+                {
                     "source": "/home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -18,23 +35,6 @@
                         "startOffsets": "2982,3047,3106",
                         "endColumns": "64,58,50",
                         "endOffsets": "3042,3101,3152"
-                    }
-                },
-                {
-                    "source": "/home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/res/values-it/values-it.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "2881",
-                        "endColumns": "100",
-                        "endOffsets": "2977"
                     }
                 },
                 {

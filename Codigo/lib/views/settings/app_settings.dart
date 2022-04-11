@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sglh/views/notifications/notifications_page.dart';
 
 class AppSettings extends StatefulWidget {
   const AppSettings({Key? key}) : super(key: key);
@@ -7,10 +8,7 @@ class AppSettings extends StatefulWidget {
 }
 
 class _AppSettingsState extends State<AppSettings> {
-  bool _toggleNotifications = false;
-  bool _toggleLocation = false;
   bool _toggleRecomendations = false;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,42 +22,39 @@ class _AppSettingsState extends State<AppSettings> {
                 style: Theme.of(context).textTheme.titleLarge,
               ),
             ),
-            SwitchListTile(
-              title: const Text('Receber notificações'),
-              subtitle: const Text(
-                'Habilita/Desabilita todos os tipos de notificação',
-              ),
-              secondary: const Icon(Icons.notifications),
-              onChanged: (value) {
-                setState(() {
-                  _toggleNotifications = value;
-                  if (!value) {
-                    _toggleLocation = value;
-                    _toggleRecomendations = value;
-                  }
-                });
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const NotificationsPage(),
+                  ),
+                );
               },
-              value: _toggleNotifications,
+              child: const ListTile(
+                title: Text('Notificações'),
+                subtitle: Text(
+                  'Realize a gestão de suas próximas marcações de ponto',
+                ),
+                leading: Icon(Icons.notifications),
+                trailing: Icon(Icons.edit),
+              ),
             ),
             const Divider(
               thickness: 1.2,
             ),
-            SwitchListTile(
-              title: const Text(
-                'Receber notificações para marcar ponto usando minha localização',
+            GestureDetector(
+              onTap: () {},
+              child: const ListTile(
+                title: Text(
+                  'Meu local de trabalho',
+                ),
+                subtitle: Text(
+                  'Defina o local de trabalho no mapa para receber uma notificação ao chegar e sair do trabalho!',
+                ),
+                leading: Icon(Icons.location_on),
+                trailing: Icon(Icons.edit),
               ),
-              subtitle: const Text(
-                'Habilite para receber notificações ao chegar e sair do escritório',
-              ),
-              secondary: _toggleLocation
-                  ? const Icon(Icons.location_on)
-                  : const Icon(Icons.location_off),
-              onChanged: (value) {
-                setState(() {
-                  _toggleLocation = value;
-                });
-              },
-              value: _toggleLocation,
             ),
             const Divider(
               thickness: 1.2,

@@ -158,7 +158,7 @@ abstract class _MonthLaborTimeStore with Store {
     if (fetchReposFuture.value != null) {
       LaborTimeRepository.saveClockInData(fetchReposFuture.value!);
     }
-    fetchData();
+    await fetchData();
     isLoading = false;
     return true;
   }
@@ -245,15 +245,20 @@ abstract class _MonthLaborTimeStore with Store {
     return totalHoursClocked - hoursToWorkThisMonth;
   }
 
-  MonthLaborTime? getCurrentMonthLaborTime() {
+  MonthLaborTime getCurrentMonthLaborTime() {
     DateTime now = DateTime.now();
-    MonthLaborTime? thisMonthLaborTime;
-    try {
-      thisMonthLaborTime = fetchReposFuture.value!.firstWhere(
-          (element) => element.year == now.year && element.month == now.month);
-    } on Exception catch (e) {
-      print(e);
-    }
+    MonthLaborTime thisMonthLaborTime = fetchReposFuture.value!.firstWhere(
+      (element) => element.year == now.year && element.month == now.month,
+      orElse: _createNewMonthLaborTime,
+    );
+    return thisMonthLaborTime;
+  }
+
+  MonthLaborTime getMonthLaborTimeByDateTime(DateTime now) {
+    MonthLaborTime thisMonthLaborTime = fetchReposFuture.value!.firstWhere(
+      (element) => element.year == now.year && element.month == now.month,
+      orElse: () => _createMonthLaborTimeByDate(now),
+    );
     return thisMonthLaborTime;
   }
 
@@ -270,8 +275,6 @@ abstract class _MonthLaborTimeStore with Store {
 
   @computed
   DateTime? get penultimateClockingEnd {
-    print('currentLaborTime');
-    print(currentLaborTime);
     if (currentLaborTime == null) {
       return null;
     }
@@ -294,5 +297,83 @@ abstract class _MonthLaborTimeStore with Store {
       return null;
     }
     return currentLaborTime?.clockInList.last.startingTime;
+  }
+
+  @action
+  Future<void> punchClock(DateTime dateTime) async {
+    // obtêm o laborTime do dia
+    print('inside punch clock 1');
+    MonthLaborTime monthLaborTime = getMonthLaborTimeByDateTime(dateTime);
+    print('inside punch clock 2');
+    for (var e in monthLaborTime.laborTimeList) {
+      print(e);
+    }
+    print(dateTime.day);
+    print('dateTime.day');
+    LaborTime laborTime = monthLaborTime.getLaborTimeByDay(dateTime.day);
+    print('inside punch clock 3');
+
+    if (laborTime.clockInList.isNotEmpty) {
+      print('list not empty');
+      TimePeriod lastTimePeriod = laborTime.clockInList.last;
+      if (lastTimePeriod.endingTime == null) {
+        updateTimePeriodEndingTime(dateTime, lastTimePeriod);
+      } else {
+        // criar novo time period
+        TimePeriod timePeriod = TimePeriod(
+          laborTimeId: laborTime.objectId,
+          startingTime: dateTime,
+          endingTime: null,
+        );
+        addTimePeriod(timePeriod);
+      }
+    } else {
+      // criar novo time period
+      TimePeriod timePeriod = TimePeriod(
+        laborTimeId: laborTime.objectId,
+        startingTime: dateTime,
+        endingTime: null,
+      );
+      addTimePeriod(timePeriod);
+    }
+    print('inside punch clock 5');
+    await LaborTimeRepository.monthLaborTimeToParse(monthLaborTime);
+    print('after saving data');
+  }
+
+  @computed
+  bool get initialized => !isLoading;
+
+  MonthLaborTime _createNewMonthLaborTime() {
+    final now = DateTime.now();
+    User user = GetIt.I<AuthStore>().user;
+    MonthLaborTime initialMonthLaborTime = MonthLaborTime(
+      user: user,
+      year: now.year,
+      month: now.month,
+      status: "Em lançamento",
+      monthReference: now.getMonthReference(),
+    );
+    final initiatedMonthLaborTime = initialMonthLaborTime.copyWith(
+      laborTimeList: initialMonthLaborTime.createLaborTime(),
+    );
+    fetchReposFuture.value?.add(initiatedMonthLaborTime);
+    return initiatedMonthLaborTime;
+  }
+
+  MonthLaborTime _createMonthLaborTimeByDate(DateTime dateTime) {
+    User user = GetIt.I<AuthStore>().user;
+    MonthLaborTime initialMonthLaborTime = MonthLaborTime(
+      user: user,
+      year: dateTime.year,
+      month: dateTime.month,
+      status: "Em lançamento",
+      monthReference: dateTime.getMonthReference(),
+    );
+    final initiatedMonthLaborTime = initialMonthLaborTime.copyWith(
+      laborTimeList: initialMonthLaborTime.createLaborTime(),
+    );
+    fetchReposFuture.value?.add(initiatedMonthLaborTime);
+    return initiatedMonthLaborTime;
   }
 }

@@ -72,6 +72,13 @@ mixin _$MonthLaborTimeStore on _MonthLaborTimeStore, Store {
           Computed<DateTime?>(() => super.lastClockInStart,
               name: '_MonthLaborTimeStore.lastClockInStart'))
       .value;
+  Computed<bool>? _$initializedComputed;
+
+  @override
+  bool get initialized =>
+      (_$initializedComputed ??= Computed<bool>(() => super.initialized,
+              name: '_MonthLaborTimeStore.initialized'))
+          .value;
 
   final _$fetchReposFutureAtom =
       Atom(name: '_MonthLaborTimeStore.fetchReposFuture');
@@ -381,7 +388,8 @@ hoursToWorkThisMonth: ${hoursToWorkThisMonth},
 monthBalance: ${monthBalance},
 lastClockingEnd: ${lastClockingEnd},
 penultimateClockingEnd: ${penultimateClockingEnd},
-lastClockInStart: ${lastClockInStart}
+lastClockInStart: ${lastClockInStart},
+initialized: ${initialized}
     ''';
   }
 }
