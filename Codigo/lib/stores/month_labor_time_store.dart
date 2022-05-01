@@ -171,8 +171,7 @@ abstract class _MonthLaborTimeStore with Store {
     }
     MonthLaborTime? thisMonthLaborTime = getCurrentMonthLaborTime();
 
-    if (thisMonthLaborTime == null ||
-        thisMonthLaborTime.laborTimeList.isEmpty) {
+    if (thisMonthLaborTime.laborTimeList.isEmpty) {
       return 0;
     }
 
@@ -208,7 +207,7 @@ abstract class _MonthLaborTimeStore with Store {
             ? previousValue + 1
             : previousValue);
 
-    return dailyHours * daysToWork;
+    return (dailyHours * daysToWork).toPrecision(2);
   }
 
   // SA Saldo Atual (HL -TH

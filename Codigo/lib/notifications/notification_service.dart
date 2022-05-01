@@ -57,6 +57,33 @@ Future<void> createPunchClockNotification(
   );
 }
 
+Future<void> createGeofencingNotification(String title) async {
+  ScheduleClockIn scheduleClockIn = ScheduleClockIn(DateTime.now());
+  await AwesomeNotifications().createNotification(
+    content: NotificationContent(
+      id: createUniqueId(),
+      channelKey: 'geolocation_channel',
+      title: title,
+      body: DateTime.now().toString(),
+      notificationLayout: NotificationLayout.Default,
+      locked: true,
+      payload: scheduleClockIn.toJson(),
+    ),
+    actionButtons: [
+      NotificationActionButton(
+        key: 'PUNCH_CLOCK',
+        label: 'Marcar o ponto',
+        color: Colors.teal,
+      ),
+      NotificationActionButton(
+        key: 'NOT_PUNCH_CLOCK',
+        label: 'Agora não',
+        color: Colors.red,
+      ),
+    ],
+  );
+}
+
 Future<void> cancelScheduledNotifications() async {
   await AwesomeNotifications().cancelAllSchedules();
 }

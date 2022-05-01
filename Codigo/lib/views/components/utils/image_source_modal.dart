@@ -79,24 +79,26 @@ class ImageSourceModal extends StatelessWidget {
   }
 
   Future<void> imageSelected(File image) async {
-    final File? croppedFile = await ImageCropper().cropImage(
+    final CroppedFile? croppedFile = await ImageCropper().cropImage(
       sourcePath: image.path,
       aspectRatio: const CropAspectRatio(ratioX: 1, ratioY: 1),
-      androidUiSettings: const AndroidUiSettings(
-        toolbarTitle: 'Editar imagem',
-        toolbarColor: Colors.purple,
-        toolbarWidgetColor: Colors.white,
-        initAspectRatio: CropAspectRatioPreset.square,
-        lockAspectRatio: true,
-      ),
-      iosUiSettings: const IOSUiSettings(
-        title: 'Editar imagem',
-        cancelButtonTitle: 'Cancelar',
-        doneButtonTitle: 'Concluir',
-      ),
+      uiSettings: [
+        AndroidUiSettings(
+          toolbarTitle: 'Editar imagem',
+          toolbarColor: Colors.purple,
+          toolbarWidgetColor: Colors.white,
+          initAspectRatio: CropAspectRatioPreset.square,
+          lockAspectRatio: true,
+        ),
+        IOSUiSettings(
+          title: 'Editar imagem',
+          cancelButtonTitle: 'Cancelar',
+          doneButtonTitle: 'Concluir',
+        )
+      ],
     );
     if (croppedFile != null) {
-      onImageSelected(croppedFile);
+      onImageSelected(File(croppedFile.path));
     }
   }
 }

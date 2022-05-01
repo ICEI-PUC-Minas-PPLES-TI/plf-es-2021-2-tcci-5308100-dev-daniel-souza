@@ -14,213 +14,331 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
 14-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
-15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:41:5-79
-15-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:41:22-76
-16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-16-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
-16-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
-17    <uses-permission android:name="android.permission.VIBRATE" />
-17-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
-17-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- for android -->
-18-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
-18-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
-19    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
-20    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
-21    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
-22    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
-23    <!-- for Samsung -->
-24    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-24-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-24-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
-25    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-25-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-25-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
-26    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-26-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-26-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
-27    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-27-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-27-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
-28    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-28-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-28-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
-29    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-29-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-29-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
-30    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-30-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-30-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
-31    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-31-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-31-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
-32    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-32-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-32-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
-33    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-33-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-33-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
-34    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-34-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-34-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
-35    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-35-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-35-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
-36    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-36-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-36-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
-37    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-37-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-37-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
-38    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-38-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-38-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
-39    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-39-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-39-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
-40
-41    <application
-42        android:name="android.app.Application"
-43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-43-->[androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:24:18-86
-44        android:debuggable="true"
-45        android:icon="@mipmap/launcher_icon"
-46        android:label="ClockIn" >
-47        <meta-data
-48            android:name="com.google.android.geo.API_KEY"
-49            android:value="AIzaSyBwaUA8tlL_sHepVX6qGS2zNdOMuBpmw54" />
-50
-51        <activity
-52            android:name="com.example.sglh.MainActivity"
-53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-54            android:exported="true"
-55            android:hardwareAccelerated="true"
-56            android:launchMode="singleTop"
-57            android:theme="@style/LaunchTheme"
-58            android:windowSoftInputMode="adjustResize" >
-59
-60            <!--
-61                 Specifies an Android theme to apply to this Activity as soon as
-62                 the Android process has started. This theme is visible to the user
-63                 while the Flutter UI initializes. After that, this theme continues
-64                 to determine the Window background behind the Flutter UI.
-65            -->
-66            <meta-data
-67                android:name="io.flutter.embedding.android.NormalTheme"
-68                android:resource="@style/NormalTheme" />
-69
-70            <intent-filter>
-71                <action android:name="android.intent.action.MAIN" />
-72
-73                <category android:name="android.intent.category.LAUNCHER" />
-74            </intent-filter>
-75        </activity>
-76        <activity
-77            android:name="com.yalantis.ucrop.UCropActivity"
-78            android:screenOrientation="portrait"
-79            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-80
-81        <!--
-82             Don't delete the meta-data below.
-83             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-84        -->
-85        <meta-data
-86            android:name="flutterEmbedding"
-87            android:value="2" />
-88
-89        <provider
-89-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
-90            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-90-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
-91            android:authorities="com.example.sglh.flutter.image_provider"
-91-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
-92            android:exported="false"
-92-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
-93            android:grantUriPermissions="true" >
-93-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
-94            <meta-data
-94-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
-95                android:name="android.support.FILE_PROVIDER_PATHS"
-95-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
-96                android:resource="@xml/flutter_image_picker_file_paths" />
-96-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
-97        </provider>
-98
-99        <receiver
-99-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:40
-100            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
-100-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-121
-101            android:exported="false" />
-101-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
-102        <receiver
-102-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-16:40
-103            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
-103-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-121
-104            android:exported="false" />
-104-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
-105        <receiver
-105-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-19:40
-106            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
-106-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-115
-107            android:exported="false" />
-107-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
-108        <receiver
-108-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-33:20
-109            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
-109-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-116
-110            android:exported="false" >
-110-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
-111            <intent-filter>
-111-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-32:29
-112                <category android:name="android.intent.category.DEFAULT" />
-112-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-76
-112-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:24:27-73
-113
-114                <action android:name="android.intent.action.BOOT_COMPLETED" />
-114-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-79
-114-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:26:25-76
-115                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-115-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:27:17-86
-115-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:27:25-83
-116                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-116-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-84
-116-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:28:25-81
-117                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-117-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-82
-117-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-79
-118                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-118-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-82
-118-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-79
-119                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
-119-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:31:17-107
-119-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:31:25-104
-120            </intent-filter>
-121        </receiver>
-122
-123        <uses-library
-123-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-124            android:name="androidx.window.extensions"
-124-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-125            android:required="false" />
-125-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-126        <uses-library
-126-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-127            android:name="androidx.window.sidecar"
-127-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-128            android:required="false" />
-128-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-129
-130        <provider
-130-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-131            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-131-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-132            android:authorities="com.example.sglh.lifecycle-process"
-132-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-133            android:exported="false"
-133-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-134            android:multiprocess="true" />
-134-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-135    </application>
-136
-137</manifest>
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:5:5-81
+15-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:5:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:6:5-79
+16-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:7:5-85
+17-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:7:22-82
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:8:5-77
+18-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:8:22-74
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:9:5-68
+19-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:9:22-65
+20    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+20-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:10:5-94
+20-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:10:22-91
+21    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+21-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:11:5-79
+21-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:11:22-76
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:6:5-79
+22-->/home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:6:22-76
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+23-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+24-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- for android -->
+25-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+25-->[:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+26    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+27    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+28    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+29    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+30    <!-- for Samsung -->
+31    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+32    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+33    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+34    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+35    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+36    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+37    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+38    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+39    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+40    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+40-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+41    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+41-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+42    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+42-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+43    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+43-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+44    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+44-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+44-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+45    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+45-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+46    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+46-->[me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+47
+48    <application
+49        android:name="android.app.Application"
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+53        android:label="ClockIn" >
+54        <service
+55            android:name="com.pravera.flutter_foreground_task.service.ForegroundService"
+56            android:foregroundServiceType="location"
+57            android:stopWithTask="true" />
+58
+59        <meta-data
+60            android:name="com.google.android.geo.API_KEY"
+61            android:value="AIzaSyBwaUA8tlL_sHepVX6qGS2zNdOMuBpmw54" />
+62
+63        <activity
+64            android:name="com.example.sglh.MainActivity"
+65            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+66            android:exported="true"
+67            android:hardwareAccelerated="true"
+68            android:launchMode="singleTop"
+69            android:theme="@style/LaunchTheme"
+70            android:windowSoftInputMode="adjustResize" >
+71
+72            <!--
+73                 Specifies an Android theme to apply to this Activity as soon as
+74                 the Android process has started. This theme is visible to the user
+75                 while the Flutter UI initializes. After that, this theme continues
+76                 to determine the Window background behind the Flutter UI.
+77            -->
+78            <meta-data
+79                android:name="io.flutter.embedding.android.NormalTheme"
+80                android:resource="@style/NormalTheme" />
+81
+82            <intent-filter>
+83                <action android:name="android.intent.action.MAIN" />
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+86            </intent-filter>
+87        </activity>
+88        <activity
+89            android:name="com.yalantis.ucrop.UCropActivity"
+90            android:screenOrientation="portrait"
+91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+92
+93        <!-- <receiver -->
+94        <!-- android:name="com.intivoto.flutter_geofence.GeofenceBroadcastReceiver" -->
+95        <!-- android:enabled="true" -->
+96        <!-- android:exported="true" /> -->
+97        <!-- <service -->
+98        <!-- android:name="com.intivoto.flutter_geofence.FlutterGeofencePlugin" -->
+99        <!-- android:foregroundServiceType="location" -->
+100        <!-- android:permission="android.permission.BIND_JOB_SERVICE" -->
+101        <!-- android:exported="true" -->
+102        <!-- tools:ignore="Instantiatable" /> -->
+103
+104
+105        <!--
+106             Don't delete the meta-data below.
+107             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+108        -->
+109        <meta-data
+110            android:name="flutterEmbedding"
+111            android:value="2" />
+112
+113        <service
+113-->[:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:72
+114            android:name="com.pravera.fl_location.service.LocationServicesStatusIntentService"
+114-->[:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-95
+115            android:enabled="true"
+115-->[:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+116            android:exported="false"
+116-->[:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->[:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+118        <service
+118-->[:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+119            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+119-->[:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+120            android:enabled="true"
+120-->[:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+121            android:exported="false"
+121-->[:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+122            android:foregroundServiceType="location" />
+122-->[:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+123
+124        <provider
+124-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+125            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+125-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+126            android:authorities="com.example.sglh.flutter.image_provider"
+126-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+127            android:exported="false"
+127-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+128            android:grantUriPermissions="true" >
+128-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+129            <meta-data
+129-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+130                android:name="android.support.FILE_PROVIDER_PATHS"
+130-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+131                android:resource="@xml/flutter_image_picker_file_paths" />
+131-->[:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+132        </provider>
+133
+134        <receiver
+134-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:40
+135            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
+135-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-121
+136            android:exported="false" />
+136-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+137        <receiver
+137-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-16:40
+138            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
+138-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-121
+139            android:exported="false" />
+139-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+140        <receiver
+140-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-19:40
+141            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
+141-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-115
+142            android:exported="false" />
+142-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+143        <receiver
+143-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-33:20
+144            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
+144-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-116
+145            android:exported="false" >
+145-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+146            <intent-filter>
+146-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-32:29
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-76
+147-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:24:27-73
+148
+149                <action android:name="android.intent.action.BOOT_COMPLETED" />
+149-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-79
+149-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:26:25-76
+150                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+150-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:27:17-86
+150-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:27:25-83
+151                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+151-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-84
+151-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:28:25-81
+152                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+152-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-82
+152-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-79
+153                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+153-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-82
+153-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-79
+154                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+154-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:31:17-107
+154-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:31:25-104
+155            </intent-filter>
+156        </receiver>
+157        <receiver
+157-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-13:47
+158            android:name="com.pravera.flutter_activity_recognition.service.ActivityRecognitionIntentReceiver"
+158-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-110
+159            android:enabled="true"
+159-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-35
+160            android:exported="true" />
+160-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-36
+161
+162        <service
+162-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-19:72
+163            android:name="com.pravera.flutter_activity_recognition.service.ActivityRecognitionIntentService"
+163-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-109
+164            android:enabled="true"
+164-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-35
+165            android:exported="false"
+165-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" />
+166-->[:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-69
+167
+168        <receiver
+168-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-15:20
+169            android:name="com.pravera.flutter_foreground_task.service.BootReceiver"
+169-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-84
+170            android:enabled="true"
+170-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-35
+171            android:exported="true" >
+171-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-36
+172            <intent-filter>
+172-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-14:29
+173                <action android:name="android.intent.action.BOOT_COMPLETED" />
+173-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-79
+173-->[:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:26:25-76
+174            </intent-filter>
+175        </receiver>
+176        <receiver
+176-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-19:40
+177            android:name="com.pravera.flutter_foreground_task.service.RestartReceiver"
+177-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-87
+178            android:enabled="true"
+178-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-35
+179            android:exported="false" />
+179-->[:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+180
+181        <uses-library
+181-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+182            android:name="androidx.window.extensions"
+182-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+183            android:required="false" />
+183-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+184        <uses-library
+184-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+185            android:name="androidx.window.sidecar"
+185-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+186            android:required="false" />
+186-->[androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+187
+188        <activity
+188-->[com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+189            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+189-->[com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+191-->[com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+192
+193        <meta-data
+193-->[com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+194            android:name="com.google.android.gms.version"
+194-->[com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+195            android:value="@integer/google_play_services_version" />
+195-->[com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+196
+197        <provider
+197-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+198            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+198-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+199            android:authorities="com.example.sglh.lifecycle-process"
+199-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+200            android:exported="false"
+200-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+201            android:multiprocess="true" />
+201-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+202    </application>
+203
+204</manifest>

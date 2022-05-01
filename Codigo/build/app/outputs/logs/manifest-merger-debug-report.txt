@@ -1,209 +1,293 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:3:4-40:19
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:13:4-65:19
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-34:19
 MERGED from [:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-34:19
-MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-20:19
+MERGED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-20:19
+MERGED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-20:19
+MERGED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-20:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1c60ddbac93fd7c9ed9fab1148b29470/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1c60ddbac93fd7c9ed9fab1148b29470/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/239eac3040abf5941858d853a33e2d2b/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/239eac3040abf5941858d853a33e2d2b/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536b95e2c17b144e73b8fb6e7017fe4e/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536b95e2c17b144e73b8fb6e7017fe4e/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/925c7187acc131e0913e42d3406825ca/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/925c7187acc131e0913e42d3406825ca/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:name
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
-INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
-MERGED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
-MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
+INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
+MERGED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
+MERGED from [:geofence_service] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geofence_service/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-36:12
-MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/25f3df754e4d43a563877bdf21983017/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5e86ac6112f317c2f69cf5fc4d8a9536/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f67a098865f65bce4861f38e5b7d3f1b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f48a4efd536c3f688ae4585294152326/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.4.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/7aef650b2a3f43cba8ffe27d08b413c4/transition-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8d9ac4f576feffd2558f0cc20fbb942d/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ae39e38aa58f5c391f29a4bfad4a41a4/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/92d1f830d8a4f76d15ea1f849fb6f29f/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0c1acf1a22491565f664a84faa8fdcda/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c1773ed3597f8bec6064dc26d157be/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/627b1a478fb3a47175bfa78ea61ecb83/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.2.3] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eeafb259c81cec61cfc15dcc1f30d062/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/2efc05e976be65ba7f6f40769896581c/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/61fd575f974e3d768efc2f6a143e0eae/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/986216458f3c0df423ee68e7f1177976/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f39ea175f1da52b1cb2087c4e2a88426/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b034ce6a8df077cfbf25102c005c8703/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1891f9ba24ce93925de3beab5570bf44/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3915edfca1ed6e728282013015427015/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ac36d2f5b16183d06412574790e770da/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8d73be0136932816dbee106487237cd9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1f318d44f7cc290e64a3a0110f6d1b61/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/53007b1b67d39cbaab28f5e7912b2517/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/81577b20856de3173b99a652d8df052c/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/69ba5a98805d81d755806668ff70d04f/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/42acb13871cd74f812098a2f4b7b2625/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ed652dcd2fd9c36a379f091898c86df9/window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1c60ddbac93fd7c9ed9fab1148b29470/play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f873c36144223f3a991f2b41d340cbd9/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/239eac3040abf5941858d853a33e2d2b/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536b95e2c17b144e73b8fb6e7017fe4e/play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.media:media:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b5fc5c9ffe765348604045997a7e07c9/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8fd468978816ae485f83a198fe7d5d56/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/097b04c9c1fde6b9d5555ebcd484a474/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/fa540984842f7fa26eab90436a18102f/ucrop-2.2.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/762d3cfaad0e57ec5f3c865acd21ccae/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4e95d1341c4de9e6fc95c4217845982b/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/616ef7982f7db48b817dc11289d67a21/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/42bfafc972817ac08155d6610d0ccc05/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4cd03a3eb9fe2e201b917a8f66ccffb0/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0c206bcc1f63150d00652097b7332789/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9d15b4d236fad50b8a00b62d175549ea/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9b5b23d9f004c4bcbc7759cbf289816/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5fa39e9795bff207e30779465e65fc21/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/06de06aabcd0cd2c45bbaf41b8e74a24/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/a4136b076183ffbda6cccee93f8d28b4/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.3] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/161f2c952a33a1212a49631cee217691/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/bbc93b3e7bdef7a8d272cc8f0cb7b379/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/319faa226b38108c8d3b925affe4e598/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1e4ccf5e62e709c0cfb831696648c286/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3052ebf842c9d5c427b1da060c871fd6/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/2b69e35fdb10fddd1c1b6f96b85b6a67/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/18f6a849cbc73eee747a5971a38efefa/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9c15f7a41c99c234007af70d70b2e710/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3ec1bc4e5c5ae7eaf9e30a0322d1509d/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/925c7187acc131e0913e42d3406825ca/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/6820c3ffb65005a782b8b011782f92a9/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/fa6b8f5e7c16c01e24e6f50db8e0195d/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/a6b2267b3da4061dc4ed500a82250a78/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/61035d55553a2bff1347198aace78d57/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/c0b5466babc94c63808c388552976099/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ab6e3343a036a099cf27a636b8e71c7b/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/e67276ed22bf4496d859b4e0639e53c8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5fbf4f0bb79e9cf1d5e528e26f793b27/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/7178a9888a65d9c601884060fc1d6d4a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eb1c35ea6e22bdd461ed5e678d93170a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eb16dad4730f9597f5971478ae8168b5/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/735717cf037948954d63ba7dfa2f7a3a/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:2:5-31
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-42:12
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:1-67:12
 		INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:1:11-69
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:41:5-79
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:5:5-81
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:41:22-76
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:7:5-85
+	android:name
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:7:22-82
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:8:5-77
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:8:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:10:5-94
+	android:name
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:10:22-91
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml:11:22-76
 uses-sdk
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geofence_service] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geofence_service/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geofence_service] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geofence_service/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:awesome_notifications] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_native_splash] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_cropper] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ad201fac15a88598107ec645f351f5b4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/25f3df754e4d43a563877bdf21983017/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/25f3df754e4d43a563877bdf21983017/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5e86ac6112f317c2f69cf5fc4d8a9536/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5e86ac6112f317c2f69cf5fc4d8a9536/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f67a098865f65bce4861f38e5b7d3f1b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f67a098865f65bce4861f38e5b7d3f1b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f48a4efd536c3f688ae4585294152326/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f48a4efd536c3f688ae4585294152326/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/dc5f536b86d379e1e69db518b4774c3b/jetified-ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536a0e6924fd14451ea0f47abf81ff76/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/7aef650b2a3f43cba8ffe27d08b413c4/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/7aef650b2a3f43cba8ffe27d08b413c4/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8d9ac4f576feffd2558f0cc20fbb942d/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8d9ac4f576feffd2558f0cc20fbb942d/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ae39e38aa58f5c391f29a4bfad4a41a4/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ae39e38aa58f5c391f29a4bfad4a41a4/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/92d1f830d8a4f76d15ea1f849fb6f29f/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/92d1f830d8a4f76d15ea1f849fb6f29f/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0c1acf1a22491565f664a84faa8fdcda/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0c1acf1a22491565f664a84faa8fdcda/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c1773ed3597f8bec6064dc26d157be/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c1773ed3597f8bec6064dc26d157be/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/627b1a478fb3a47175bfa78ea61ecb83/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/627b1a478fb3a47175bfa78ea61ecb83/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ccab238727e236e8aff01a0f95cebe4/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f6886f612e9817326f4f408c1489ce06/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9344e812e9436e7dbce7c9baf11f7fbd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.2.3] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eeafb259c81cec61cfc15dcc1f30d062/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eeafb259c81cec61cfc15dcc1f30d062/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/2efc05e976be65ba7f6f40769896581c/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/2efc05e976be65ba7f6f40769896581c/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/61fd575f974e3d768efc2f6a143e0eae/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/61fd575f974e3d768efc2f6a143e0eae/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/986216458f3c0df423ee68e7f1177976/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/986216458f3c0df423ee68e7f1177976/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f39ea175f1da52b1cb2087c4e2a88426/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f39ea175f1da52b1cb2087c4e2a88426/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b034ce6a8df077cfbf25102c005c8703/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b034ce6a8df077cfbf25102c005c8703/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/6c6575c923e75933616af1a602db32e0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1891f9ba24ce93925de3beab5570bf44/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1891f9ba24ce93925de3beab5570bf44/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8578375fbf5df5bbe65cca21a6cd6acf/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/884708a9396f81808c0ac10f4b98ea32/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3915edfca1ed6e728282013015427015/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3915edfca1ed6e728282013015427015/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ac36d2f5b16183d06412574790e770da/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ac36d2f5b16183d06412574790e770da/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8d73be0136932816dbee106487237cd9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8d73be0136932816dbee106487237cd9/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/16e110bf603f94cf61f970a18f3907e3/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1f318d44f7cc290e64a3a0110f6d1b61/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1f318d44f7cc290e64a3a0110f6d1b61/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ba75471a221dffe13eac8188761db78a/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/53007b1b67d39cbaab28f5e7912b2517/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/53007b1b67d39cbaab28f5e7912b2517/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/81577b20856de3173b99a652d8df052c/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/81577b20856de3173b99a652d8df052c/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9ed314abc3df537a2d48c1cb6d65998e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/69ba5a98805d81d755806668ff70d04f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/69ba5a98805d81d755806668ff70d04f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/42acb13871cd74f812098a2f4b7b2625/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/42acb13871cd74f812098a2f4b7b2625/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
-MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5bfc0955e244073bdc8cc139cda5e092/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/permission_handler_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/package_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ed652dcd2fd9c36a379f091898c86df9/window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ed652dcd2fd9c36a379f091898c86df9/window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1c60ddbac93fd7c9ed9fab1148b29470/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1c60ddbac93fd7c9ed9fab1148b29470/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f873c36144223f3a991f2b41d340cbd9/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/f873c36144223f3a991f2b41d340cbd9/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/239eac3040abf5941858d853a33e2d2b/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/239eac3040abf5941858d853a33e2d2b/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536b95e2c17b144e73b8fb6e7017fe4e/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/536b95e2c17b144e73b8fb6e7017fe4e/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b5fc5c9ffe765348604045997a7e07c9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b5fc5c9ffe765348604045997a7e07c9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8fd468978816ae485f83a198fe7d5d56/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/8fd468978816ae485f83a198fe7d5d56/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/097b04c9c1fde6b9d5555ebcd484a474/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/097b04c9c1fde6b9d5555ebcd484a474/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/fa540984842f7fa26eab90436a18102f/ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/fa540984842f7fa26eab90436a18102f/ucrop-2.2.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/762d3cfaad0e57ec5f3c865acd21ccae/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/762d3cfaad0e57ec5f3c865acd21ccae/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4e95d1341c4de9e6fc95c4217845982b/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4e95d1341c4de9e6fc95c4217845982b/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/616ef7982f7db48b817dc11289d67a21/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/616ef7982f7db48b817dc11289d67a21/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/42bfafc972817ac08155d6610d0ccc05/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/42bfafc972817ac08155d6610d0ccc05/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4cd03a3eb9fe2e201b917a8f66ccffb0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4cd03a3eb9fe2e201b917a8f66ccffb0/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0c206bcc1f63150d00652097b7332789/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0c206bcc1f63150d00652097b7332789/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9d15b4d236fad50b8a00b62d175549ea/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9d15b4d236fad50b8a00b62d175549ea/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9b5b23d9f004c4bcbc7759cbf289816/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/b9b5b23d9f004c4bcbc7759cbf289816/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5fa39e9795bff207e30779465e65fc21/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5fa39e9795bff207e30779465e65fc21/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/06de06aabcd0cd2c45bbaf41b8e74a24/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/06de06aabcd0cd2c45bbaf41b8e74a24/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/a4136b076183ffbda6cccee93f8d28b4/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/a4136b076183ffbda6cccee93f8d28b4/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.3] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/161f2c952a33a1212a49631cee217691/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/161f2c952a33a1212a49631cee217691/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/bbc93b3e7bdef7a8d272cc8f0cb7b379/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/bbc93b3e7bdef7a8d272cc8f0cb7b379/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/319faa226b38108c8d3b925affe4e598/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/319faa226b38108c8d3b925affe4e598/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1e4ccf5e62e709c0cfb831696648c286/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1e4ccf5e62e709c0cfb831696648c286/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/1d9b8c32f5af1467fd9013508847429f/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3052ebf842c9d5c427b1da060c871fd6/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3052ebf842c9d5c427b1da060c871fd6/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/2b69e35fdb10fddd1c1b6f96b85b6a67/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/2b69e35fdb10fddd1c1b6f96b85b6a67/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/18f6a849cbc73eee747a5971a38efefa/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/18f6a849cbc73eee747a5971a38efefa/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9c15f7a41c99c234007af70d70b2e710/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/9c15f7a41c99c234007af70d70b2e710/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3ec1bc4e5c5ae7eaf9e30a0322d1509d/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/3ec1bc4e5c5ae7eaf9e30a0322d1509d/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/925c7187acc131e0913e42d3406825ca/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/925c7187acc131e0913e42d3406825ca/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/6820c3ffb65005a782b8b011782f92a9/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/6820c3ffb65005a782b8b011782f92a9/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/fa6b8f5e7c16c01e24e6f50db8e0195d/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/fa6b8f5e7c16c01e24e6f50db8e0195d/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/a6b2267b3da4061dc4ed500a82250a78/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/a6b2267b3da4061dc4ed500a82250a78/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/61035d55553a2bff1347198aace78d57/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/61035d55553a2bff1347198aace78d57/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/c0b5466babc94c63808c388552976099/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/c0b5466babc94c63808c388552976099/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ab6e3343a036a099cf27a636b8e71c7b/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/ab6e3343a036a099cf27a636b8e71c7b/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/e67276ed22bf4496d859b4e0639e53c8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/e67276ed22bf4496d859b4e0639e53c8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5fbf4f0bb79e9cf1d5e528e26f793b27/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5fbf4f0bb79e9cf1d5e528e26f793b27/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/7178a9888a65d9c601884060fc1d6d4a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/7178a9888a65d9c601884060fc1d6d4a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eb1c35ea6e22bdd461ed5e678d93170a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eb1c35ea6e22bdd461ed5e678d93170a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eb16dad4730f9597f5971478ae8168b5/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/eb16dad4730f9597f5971478ae8168b5/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/735717cf037948954d63ba7dfa2f7a3a/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/735717cf037948954d63ba7dfa2f7a3a/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -216,6 +300,26 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.pravera.fl_location.service.LocationServicesStatusIntentService
+ADDED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:72
+	android:enabled
+		ADDED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:fl_location] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/fl_location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-95
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
 ADDED from [:image_picker_android] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
@@ -298,89 +402,141 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from [:connectivity_plus] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+receiver#com.pravera.flutter_activity_recognition.service.ActivityRecognitionIntentReceiver
+ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-13:47
+	android:enabled
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-35
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-36
+	tools:ignore
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/5b28ea65995a10537a2c988d76489f89/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-110
+service#com.pravera.flutter_activity_recognition.service.ActivityRecognitionIntentService
+ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-19:72
+	android:enabled
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-35
+	android:exported
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:permission
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-69
+	android:name
+		ADDED from [:flutter_activity_recognition] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_activity_recognition/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-109
+receiver#com.pravera.flutter_foreground_task.service.BootReceiver
+ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-15:20
+	android:enabled
+		ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-35
+	android:exported
+		ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-84
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-14:29
+receiver#com.pravera.flutter_foreground_task.service.RestartReceiver
+ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-19:40
+	android:enabled
+		ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-35
+	android:exported
+		ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:flutter_foreground_task] /home/dlynconsydle/SoftwareEngineer/TCC_II/plf-es-2021-2-tcci-5308100-dev-daniel-souza/Codigo/build/flutter_foreground_task/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-87
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/0f219d57e16241f215b4a5a9088b687e/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/4282a2825a13cdeb55f21e43a5e0af72/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/37495938031084f6830cd0f7cbe65b09/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/09c148dab84ee53528b6faf9617586d9/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
 uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
 uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
 uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
 uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
 uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
 uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
 uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
 uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
 uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
 uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
 uses-permission#android.permission.READ_APP_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
 uses-permission#com.oppo.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
 uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
 uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
 uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/644c21982e4e9db8623e39519462506e/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /home/dlynconsydle/.gradle/caches/transforms-2/files-2.1/159b48542e9cd7cb05f69cf4b24b8d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

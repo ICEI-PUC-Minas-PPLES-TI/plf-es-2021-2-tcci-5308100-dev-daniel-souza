@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sglh/views/notifications/notifications_page.dart';
 
+import '../notifications/geolocations_page.dart';
+
 class AppSettings extends StatefulWidget {
   const AppSettings({Key? key}) : super(key: key);
   @override
@@ -44,13 +46,20 @@ class _AppSettingsState extends State<AppSettings> {
               thickness: 1.2,
             ),
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const GeolocationPage(),
+                  ),
+                );
+              },
               child: const ListTile(
                 title: Text(
                   'Meu local de trabalho',
                 ),
                 subtitle: Text(
-                  'Defina o local de trabalho no mapa para receber uma notificação ao chegar e sair do trabalho!',
+                  'Defina seu local de trabalho no mapa para receber uma notificação ao chegar e sair do trabalho!',
                 ),
                 leading: Icon(Icons.location_on),
                 trailing: Icon(Icons.edit),
